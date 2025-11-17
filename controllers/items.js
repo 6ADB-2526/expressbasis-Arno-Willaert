@@ -9,6 +9,11 @@ const welkom = (req, res) =>{
     res.json("welkom")
 }
 
+const returnItem = (req, res) => {
+  res.json(items)
+}
+
 module.exports = {
     welkom,
+    returnItem
 }
